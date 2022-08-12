@@ -1,0 +1,68 @@
+.App {
+  text-align: justify;
+  width: 100%;
+  height: 650px;
+  display: grid;
+  place-content: center;
+  background:  #12ac52;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Conversor{
+  width: 550px;
+  height: 350px;
+  background-color: #12ac52;
+  
+}
+#Name{
+  width: 100%;
+  height: 38px;
+  border-bottom: 2px solid rgb(10, 10, 10);
+  font-size: 22px;
+  display: grid;
+  color: rgb(17, 17, 17);
+  place-content: center;
+}
+#Menu{
+  width: 100%;
+  height: calc(100% - 40px);
+  display: flex;
+  
+  position: relative ;
+}
+.Diseño{
+  position: sticky;
+  display: block;
+ 
+}
+.Diseño:nth-child(1){
+  top: 15px;
+  left: 15px;
+  width: 50%;
+  height: 3px;
+}
+.Diseño:nth-child(2){
+  top: 15px;
+  left: 1spx;
+  width: 3px;
+  height: 25%;
+}
+.Diseño:nth-child(3){
+  right: 15px;
+  bottom: 15px;
+  width: 50%;
+  height: 3px;
+}
+.Diseño:nth-child(4){
+  right: 15px;
+  bottom: 15px;
+  width: 3px;
+  height: 25%;
+}
+.Datos{
+  width: 50%;
+  height: 100%;
+  color: white;
+  display: center;
+  place-content: center;
+  font-size: 18px;
+}
