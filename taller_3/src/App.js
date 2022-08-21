@@ -9,12 +9,7 @@ function App() {
 			<div className="bg-pattern-bottom"></div>
 
 			<ProfileCard
-				name="Rita Correia"
-				age="32"
-				city="London"
-				followers="80K"
-				likes="803K"
-				photos="1.4K"
+				
 			></ProfileCard>
 		</div>
 	);
